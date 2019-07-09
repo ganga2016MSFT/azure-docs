@@ -62,6 +62,9 @@ Configure the HTTP activity as follows:
 |---------|---------|
 |**Method**     |POST         |
 |**URI**     | https://*your server region*/servers/*aas server name*/models/*your database name*/ <br /> <br /> For example:  https:\//westus.asazure.windows.net/servers/myserver/models/AdventureWorks/|
+
+This is incorrect which needs to update to add refreshes at the end of the URI. Please update 
+
 |**Headers**     |   Content-Type, application/json <br /> <br />  ![Headers](./media/analysis-services-async-refresh-logic-app/6.png)    |
 |**Body**     |   To learn more about forming the request body, see [Asynchronous refresh with the REST API - POST /refreshes](analysis-services-async-refresh.md#post-refreshes). |
 |**Authentication**     |Active Directory OAuth         |
